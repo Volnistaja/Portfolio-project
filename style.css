@@ -69,9 +69,9 @@ p {
   padding: 15px 30px;
 }
 .btn-learn-more {
-color: var(--button-background-color);
+  color: var(--button-background-color);
   border: 1px solid var(--button-background-color);
-   border-radius: 4px;
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -79,7 +79,7 @@ color: var(--button-background-color);
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width:900px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
   }
@@ -94,14 +94,13 @@ color: var(--button-background-color);
     padding: 0;
     margin: 10px;
     text-align: center;
-
   }
   .about-section {
     text-align: center;
     padding: 10px;
   }
-.me-image {
-  padding: 10px;
-  border-radius: 4px;
-}
+  .me-image {
+    padding: 10px;
+    border-radius: 4px;
+  }
 }
