@@ -33,6 +33,35 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+ transition: all 100ms ease-in-out;
+}
+nav li.active a {
+  color: var(--button-background-color);
+}
+nav a:hover {
+  color: var(--button-background-color);
+ 
+}
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -111,5 +140,8 @@ p {
   .me-image {
     padding: 10px;
     border-radius: 4px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
